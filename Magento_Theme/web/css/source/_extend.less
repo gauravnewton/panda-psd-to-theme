@@ -77,6 +77,7 @@ display:none;
 }
 .block-search {
     margin: -66px 66px 0 0;
+    z-index:12;
 }
 .show-hide{
   display:none;
@@ -110,14 +111,15 @@ display:none;
 .nav-sections {
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 10;
 }
 
 
 .col-left{
   width:22%; 
 
-  float:left; margin:0% 2% 0% 66px; 
+  float:left;
+  margin:0% 2% 0% 66px; 
   height:auto;
 }
 .col-right{
@@ -132,13 +134,15 @@ display:none;
 .shoes{
   padding:28px 0 0 80px;
 }
-.col-left-btn{
-  font-family: 'Coustard',serif;
-  border: 0px none;
-  color: #fff;
-  background-color: #000;
-  margin: 43px 0 0 61px;
 
+
+.col-left-btn {
+    font-family: 'Coustard', serif;
+    border: 0px none;
+    color: #fff;
+    background-color: #000;
+    margin: 27px 0 0 61px;
+    padding: 10px 23px 10px 23px;
 }
 
 .main-col{
@@ -150,42 +154,306 @@ display:none;
     font-weight: 1000;
     font-size: 17px;
     padding: 25px 0 0 15px; 
-}/*
-.col-left-div-first{
-  background-color: #C2C2D1; 
-  height:334px;
 }
-.col-left-div-second{
-  background-color: #ECBEFA;  
-  margin-top: 44px;
+
+.block .widget .block-products-list .grid{
+    z-index:900909;
 }
-.col-left-div-second-img-one{
-  padding: 26px 0 0 24px;
+.product-text{
+    clear: both;
+    font-size: 29px;
+    padding:4% 2% 0% 66px; 
+    color:#000;
 }
-.col-left-div-second-img-two{
-  margin-top: -55px;
-    margin-bottom: -5px;
-    padding: 0px 0 0 42px;
+.btn-link:link,
+.btn-link:visited {
+  background-color: transparent !important;
+  color: #000 !important;
+  padding: 8px 25px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-family: 'Bree Serif',serif !important;
+  font-weight: 600 !important;
 }
-.main-col-div-two{
-  padding:20px;
+.btns{
+  padding: 1% 2% 2% 66px !important;
 }
-.main-col-div-img{
-  height: 586px;
+
+.btn-active{
+  border:1px solid #000!important;
+  border-radius:25px !important;
 }
-.col-right-div-one{
-  background-color: #C9FBA9; 
-  height:334px;
+
+
+#btn-one-div{
+  padding: 1% 2% 2% 66px;
 }
-.col-right-div-two{
-  background-color: #B4EDE3;  
-  margin-top: 44px;
+
+#btn-two-div{
+  padding: 1% 2% 2% 66px;
 }
-.col-right-div-img-one{
-  padding: 26px 0 0 24px;
+
+#btn-three-div{
+  padding: 1% 2% 2% 66px;
 }
-.col-right-div-img-two{
-  margin-top: -86px;
-  margin-bottom: -5px;
-  padding: 0px 0 0 42px;
-}*/
+.footer-container{
+  background-color: #FEDEA2;
+  margin:1% 2% 2% 66px;
+}
+
+.block.newsletter{
+  margin: 0px auto;
+}
+.footer-text {
+    /*position: absolute;
+    margin: -182px 0 0 407px;*/
+    padding: 99px 0 19px 34px;
+    font-size: 12px;
+    color: black;
+    font-family: 'Ubuntu',sans-serif !important;
+
+}
+.max-width{
+     max-width: 1250px !important;
+     margin:0px auto !important;
+}
+
+.child{
+  position: absolute; 
+  margin: -359px 0 0 864px;  
+}
+.footer-bar{
+  background-color: #000; 
+  color:#fff; 
+  text-align:center;
+  padding: 30px 0px;
+}
+.footer-arrow{
+  filter: invert(100%);
+  vertical-align: middle;
+  padding-right: 12px;
+}
+.footer-bar-text{
+  font-weight: 1000;
+}
+.page-header{
+  padding:0px !important; 
+  margin:0px !important;
+}
+.panel.header{
+  background:#000;
+  max-width: -webkit-fill-available !important;
+}
+.panel{
+  margin:0px !important;
+}
+.footer-col-3{
+  padding: 55px 0 0 87px;
+}
+
+#link-head{
+  font-weight: 1000;color: #000;
+}
+
+
+
+
+.left-main-div{
+  background-color: #F6F5F8;
+}
+
+.left-div-1{
+  width:65%; float:left;
+}
+
+.fiull-width-inside-75{
+  width:100%;     
+  padding-top: 73px;
+}
+.div-75-col-1{
+  width:33.33%; 
+  display:inline-block;  
+  vertical-align: top;    
+  padding-left: 84px;
+}
+
+.div-75-col-2{
+  width:33.33%; 
+  vertical-align: top; 
+  display:inline-block;
+}
+
+.div-75-col-3{
+  width:10.33%; 
+  vertical-align: top; 
+  display: inline-block;
+}
+
+.footer-25-img{
+  width:35%; 
+  float:left;
+  padding-top: 74px;
+}
+
+.div-75-col-1 a{ 
+ position:absolute; 
+ margin: 35px 0 0 -41px;
+color:#000;
+}
+.div-75-col-1 ul{
+ list-style:none;
+}
+
+
+
+.div-75-col-2 a{ 
+ position:absolute; 
+ margin: 35px 0 0 -41px;
+color:#000;
+}
+.div-75-col-2 ul{
+ list-style:none;
+}
+
+
+
+.div-75-col-3 a{ 
+ position:absolute; 
+ margin: 35px 0 0 -41px;
+color:#000;
+}
+.div-75-col-3 ul{
+ list-style:none;
+}
+
+.div-75-col-1 a:hover{ 
+ text-decoration:none;
+}
+
+.div-75-col-2 a:hover{ 
+ text-decoration:none;
+}
+
+
+.div-75-col-3 a:hover{ 
+ text-decoration:none;
+}
+.page-footer{
+padding-bottom:100px;
+}
+
+
+
+
+::placeholder {
+  color: gray !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: gray !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: gray !important;
+} 
+
+.block.newsletter .field .control:before{
+  content: '' !important;
+} 
+
+.form.subscribe{
+ padding-left:18px;
+ width:78% !important;
+ }
+
+.block.newsletter input{
+ padding-left:20px;
+ height: 42px;
+ border-radius: 24px !important;
+ border: 0px;
+}
+
+.block.newsletter .action.subscribe{
+ position: absolute !important;
+ border-radius:20px !important;
+ margin: 6px 0 0 -36px !important;
+ background:red !important;
+ border:0px !important; 
+}
+
+
+
+
+.price-label{
+ display:none;
+}
+
+.product-item-link{
+font-family:'Abril Fatface',cursive;
+}
+
+.product-item-name, .product.name a{
+ font-weight:600;
+}
+
+
+
+.price-container .price{
+ float:right;
+}
+
+.col-left-btn:hover
+{
+border:0px !important;
+background-color:#F50044 !important;
+color:#fff;
+}
+.col-left-btn:active
+{
+border:0px !important;
+background-color:#F50044 !important;
+color:#fff;
+}
+.level-top.ui-corner-all{
+ color:#000 !important;
+}
+
+.navigation .level0 > .level-top:hover, .navigation .level0 > .level-top.ui-state-focus{
+ background:#000;
+ color:#fff !important;
+}
+
+.nos-font{
+  font-family:'Abril Fatface',cursive !important;
+}
+
+
+.main-col-image{
+  background-image:url('@{baseDir}images/col-main-background.jpg');
+  height: 635px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+//desktop
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__l) {
+    
+}
+
+.footer-right-col{
+    width: 30%;
+    display: inline-block;
+}
+
+.footer-center-col{
+    width: 30% !important;
+    float: left;
+}
+
+.footer-left-col{
+    width: 30%;
+    display: block;
+    float: left;
+}
