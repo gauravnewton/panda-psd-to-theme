@@ -45,6 +45,19 @@
 
         <move element="footer-custum-link" destination="footer-container"/>
         
+
+
+
+        <!-- <referenceBlock name="product.info.details">
+            <referenceBlock name="reviews.tab">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Customer Reviews</argument>
+                </arguments>
+            </referenceBlock>
+        </referenceBlock> -->
+
+
+
     </body>
 </page>
 
