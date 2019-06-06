@@ -1,13 +1,6 @@
 <?xml version="1.0"?>
 <page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-         <!-- <move element="top.search" destination="top.container" before="-" />
-        <move element="minicart" destination="catalog.topnav"/>
-        <move element="logo" destination="catalog.topnav" />
-        <referenceBlock name="header-wrapper" remove="true" />
-        
-        <move element="authorization-link-login" destination="navigation.sections" before="-" /> 
-        <move element="authorization-link-login" destination="navigation.sections" after="minicart" /> -->
 
         <block name="top-message" template="Magento_Theme::messages.phtml"/>
         <block name="top-offers" template="Magento_Theme::offers.phtml"/>
@@ -22,7 +15,6 @@
         <move element="logo" destination="catalog.topnav" />
         <move element="authorization-link-login" destination="catalog.topnav" />
         <move element="minicart" destination="catalog.topnav"/>
-        <!-- <move element="logo" destination="navigation-sections" before="-" /> -->
 
         <referenceBlock name="header-wrapper" remove="true" />
         <container name="navigation-after" after="catalog.topnav"/>
@@ -31,7 +23,6 @@
 
         <referenceContainer name="main">
             <container name="subscribe-container" htmlTag="div" after="content.bottom" htmlClass="footer-container">
-                <!-- <block name="footer-before-block" template="Magento_Theme::html/footer-before.phtml"/<name /> -->
             </container>
         </referenceContainer>
 
@@ -44,20 +35,6 @@
         <block class="Magento\Framework\View\Element\Template" name="footer-custum-link" template="Magento_Theme::custom-footer.phtml"/>
 
         <move element="footer-custum-link" destination="footer-container"/>
-        
-
-
-
-        <!-- <referenceBlock name="product.info.details">
-            <referenceBlock name="reviews.tab">
-                <arguments>
-                    <argument translate="true" name="title" xsi:type="string">Customer Reviews</argument>
-                </arguments>
-            </referenceBlock>
-        </referenceBlock> -->
-
-
-
     </body>
 </page>
 
